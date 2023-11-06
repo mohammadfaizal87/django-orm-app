@@ -10,12 +10,14 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
+create a table using required detailsb in Django_ORM
 
 ### STEP 2:
+upload the python code
 
 ### STEP 3:
 
-Write your own steps
+push the code to github
 
 ## PROGRAM
 
@@ -23,7 +25,5 @@ Include your code here
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
-
-
 ## RESULT
+ULT
