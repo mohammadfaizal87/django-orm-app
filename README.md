@@ -26,7 +26,28 @@ Now  run the program using the command: python manage.py
 runserver 0:8000
 
 ## PROGRAM
+```py
 
+#FROM Admin.py
+from django.contrib import admin
+from .models import Student,StudentAdmin
+# Register your models here.
+admin.site.register(Student,StudentAdmin)
+
+#FROM Models.py
+from django.db import models
+from django.contrib import admin
+
+# Create your models here.
+class Student (models.Model):
+    referenceno=models.CharField(primary_key=True,max_length=20,help_text="referenceno")
+    name=models.CharField(max_length=100)
+    age=models.IntegerField()
+    email=models.EmailField()
+    mobileno=models.IntegerField()
+class StudentAdmin (admin.ModelAdmin):
+    list_display=('referenceno','name','age','email','mobileno')
+```
 
 ## OUTPUT
 ![Screenshot 2023-11-06 060809](https://github.com/mohammadfaizal87/django-orm-app/assets/147139206/65da73ae-f97e-4586-b496-c9a03838c30b)
