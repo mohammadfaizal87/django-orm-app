@@ -22,6 +22,8 @@ push the code to github
 ## PROGRAM
 
 ## OUTPUT
+![Screenshot 2023-11-06 060809](https://github.com/mohammadfaizal87/django-orm-app/assets/147139206/65da73ae-f97e-4586-b496-c9a03838c30b)
+
 
 ## RESULT
 The Program is Executed Successfully.
